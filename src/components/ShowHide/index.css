@@ -1,0 +1,72 @@
+/* Write your CSS here */
+
+.bg-container {
+  background-image: linear-gradient(to right, #fa7257, #dd1264, #fc63a7);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  text-align: center;
+  color: #ffffff;
+  font-size: 45px;
+}
+
+.card-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 600px;
+  align-items: center;
+}
+
+.button {
+  margin-bottom: 10px;
+  color: #fc63a7;
+  border-radius: 8px;
+  padding: 8px;
+  font-family: 'Roboto';
+}
+
+.show {
+  background-color: #ffffff;
+  border-radius: 6px;
+  padding: 10px;
+  width: 190px;
+  height: 100px;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.showJonas {
+  background-color: #ffffff;
+  border-radius: 6px;
+  padding: 10px;
+  width: 190px;
+  height: 100px;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.firstNameButton {
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .card-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 768px) {
+}
